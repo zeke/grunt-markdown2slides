@@ -14,7 +14,9 @@ module.exports = function(grunt) {
 
   grunt.registerMultiTask('markdown2slides', 'Write your slideshow content in markdown without compromising stylability.', function() {
     // Merge task-specific and/or target-specific options with these defaults.
-    var options = this.options();
+    var options = this.options({
+      
+    });
 
     // Iterate over all specified file groups.
     this.files.forEach(function(f) {

@@ -33,7 +33,7 @@ module.exports = function(grunt) {
       default_options: {
         options: {},
         files: {
-          'tmp/simple.html': ['test/fixtures/simple.md'],
+          'test/container.html': ['test/fixtures/simple.md'],
         },
       },
     },
