@@ -1,7 +1,7 @@
 {
   "name": "grunt-markdown2slides",
   "description": "Write your slide deck in markdown without compromising stylability.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/zeke/grunt-markdown2slides",
   "author": {
     "name": "zeke",
@@ -29,7 +29,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "markdown2slides": "~0.0.0"
+    "markdown2slides": "0.1.x"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
