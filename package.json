@@ -1,6 +1,6 @@
 {
   "name": "grunt-markdown2slides",
-  "description": "Write your slideshow content in markdown without compromising stylability.",
+  "description": "Write your slide deck in markdown without compromising stylability.",
   "version": "0.1.0",
   "homepage": "https://github.com/zeke/grunt-markdown2slides",
   "author": {

@@ -1,6 +1,6 @@
 # grunt-markdown2slides
 
-Write your slideshow content in markdown without compromising stylability.
+Write your slide deck in markdown without compromising stylability.
 
 ## Getting Started
 
