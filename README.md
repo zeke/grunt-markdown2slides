@@ -14,20 +14,33 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 npm install grunt-markdown2slides --save-dev
 ```
 
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
+Then add it to your Gruntfile:
 
-```js
-grunt.loadNpmTasks('grunt-markdown2slides');
+```coffee
+# Gruntfile.coffee
+module.exports = (grunt) ->
+
+  grunt.initConfig
+
+    markdown2slides:
+      basic:
+        src: ['src/index.md']
+        dest: "public/index.html"
+
+  grunt.loadNpmTasks 'grunt-markdown2slides'
 ```
 
-In your project's Gruntfile, add a section named `markdown2slides` to the data object passed into `grunt.initConfig()`.
-
 ```js
-grunt.initConfig({
-  markdown2slides: {
-    files: {
-      'dest/slides.html': ['src/slides.md'],
-    },
-  },
-})
+// or Gruntfile.js
+module.exports = function(grunt) {
+  grunt.initConfig({
+    markdown2slides: {
+      basic: {
+        src: ['src/index.md'],
+        dest: "public/index.html"
+      }
+    }
+  });
+  grunt.loadNpmTasks('grunt-markdown2slides');
+};
 ```
